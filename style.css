@@ -1,0 +1,23 @@
+body {
+    margin-left: 64px;
+    margin-right: 64px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+li {
+    padding: 0 16px;
+}
+
+a {
+    text-decoration: none;
+}
