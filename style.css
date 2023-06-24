@@ -80,6 +80,7 @@ a {
 .random {
     display: flex;
     flex-direction: column;
+    padding: 64px;
 }
 
 .random-info {
@@ -107,4 +108,68 @@ a {
 
 .info {
     max-width: 170px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 72px;
+}
+
+.quote-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    font-size: 36px;
+    font-weight: light italic;
+    color: #1f2937;
+}
+
+b {
+    display: flex;
+    justify-content: right;
+}
+
+.action {
+    padding: 72px;
+}
+
+.action-box {
+    display: flex;
+    background-color: #3882f6;
+    border: solid #3882f6;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.action-box-text {
+    padding: 12px;
+}
+
+.hero {
+    color: #f9faf8;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.hero-subtext {
+    color: #e5e7eb;
+}
+
+.action-button {
+    height: 70%;
+    border: solid white;
+    border-radius: 5px;
+    background-color: #3882f6;
+    color: white;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    background-color: #1f2937;
+    color: #e5e7eb;
 }
