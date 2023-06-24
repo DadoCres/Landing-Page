@@ -1,65 +1,95 @@
 body {
-    padding-left: 72px;
-    padding-right: 72px;
-}
-
-.header {
-    display: flex;
-    flex-direction: column;
-    /*background-color: darkblue;*/
-}
-
-.logo {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-bottom: 48px;
+    margin: 0;
 }
 
 ul {
-    list-style-type: none;
     display: flex;
-}
-
-li {
-    padding: 0 12px;
+    list-style: none;
+    gap: 12px;
 }
 
 a {
     text-decoration: none;
-    /*color: white;*/
+    color: #e5e7eb;
+    font-size: 18px;
 }
 
-.logo {
-    /*color: white;*/
-}
-
-.text {
-    /*color: white;*/
-    font-size: 12px;
-    font-weight: 100;
-    height: 200px;
-    width: 250px;
-}
-
-.about {
+.header {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1f2937;
+}
+
+.header-logo {
+    color: #f9faf8;
+    padding-left: 72px;
+    font-size: 24px;
+}
+
+.header-links {
+    padding-right: 72px;
+}
+
+.main {
+    display: flex;
+    background-color: #1f2937;
+    padding-bottom: 96px;
+}
+
+.awesome {
+    padding-left: 72px;
+    width: 50%;
+}
+
+.awesome-website {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+}
+
+.awesome-subtext {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.sign-up {
+    background-color: #3882f6;
+    color: white;
+    border-radius: 15%;
+    border: none;
 }
 
 .placeholder {
-    /*color: white;*/
+    width: 50%;
     display: flex;
-    width: 400px;
-    height: 200px;
-    background-color: gray;
     align-items: center;
     justify-content: center;
-    flex: 1;
+}
+
+.placeholder-box {
+    color: #e5e7eb;
+    background-color: gray;
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .random {
     display: flex;
+    flex-direction: column;
+}
+
+.random-info {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1f2937;
+    display: flex;
+    align-items: center;
     justify-content: center;
+    padding-bottom: 36px;
 }
 
 .container {
@@ -68,16 +98,13 @@ a {
     gap: 52px;
 }
 
-.box {
+.info-box {
+    max-width: 150px;
     height: 150px;
-    border: solid black;
-    border-radius: 20px;
-}
-
-.box-text {
-    font-size: 13px;
+    border: solid #3882f6;
+    border-radius: 10%;
 }
 
 .info {
-    max-width: 150px;
+    max-width: 170px;
 }
